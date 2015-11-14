@@ -27,8 +27,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         overridePendingTransition(R.anim.transaction_right_in, R.anim.transaction_right_out);
         ButterKnife.bind(this);
-        MainActivity.transactionleft = (Left.isChecked()) ? true : false;
-        MainActivity.TransactionRight = (right.isChecked()) ? true : false;
+        // MainActivity.transactionleft = (Left.isChecked()) ? true : false;
+        // MainActivity.TransactionRight = (right.isChecked()) ? true : false;
 
 
         trans.setOnClickListener(new View.OnClickListener() {
